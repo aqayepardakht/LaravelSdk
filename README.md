@@ -28,12 +28,11 @@ try {
 تایید تراکنش پس از بازگشت از صفحه بانکی
 
 ```php
-$trackingNumber = $_POST['tracking_number']; // کد رهگیری بانکی
-$traceCode      = $_POST['transid']; // کد رهگیری برای تایید تراکنش
-$api            = new Aqayepardakht\PhpSdk\Api();
+$trackingNumber = $request->post('tracking_number'); // کد رهگیری بانکی
+$traceCode      = $request->post('transid'); // کد رهگیری برای تایید تراکنش
 
 try {
-    $pay = Aqayepardakht::gateway('sandbox')
+    $pay = Aqayepardakht::gateway('Your Pin')
                 ->invoice(['amount' => 1100])
                 ->verify($traceCode);
 } catch (Exception $e) { 
