@@ -5,7 +5,7 @@ sdk اتصال به api پرداخت آقای پرداخت
 نصب توسط کامپوزر
 
 ```bash
-composer require aqayepardakht/php-sdk
+composer require aqayepardakht/laravel-sdk
 ```
 
 ##  نحوه استفاده سریع
