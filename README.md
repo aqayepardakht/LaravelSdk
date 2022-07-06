@@ -13,8 +13,6 @@ composer require aqayepardakht/php-sdk
 ساخت فاکتور و ارسال به درگاه بانکی
 
 ```php
-require 'vendor/autoload.php';
-
 try {       
     $pay = Aqayepardakht::gateway('Your Pin')
                 ->invoice(['amount' => 500])
@@ -30,8 +28,6 @@ try {
 تایید تراکنش پس از بازگشت از صفحه بانکی
 
 ```php
-require 'vendor/autoload.php';
-
 $trackingNumber = $_POST['tracking_number']; // کد رهگیری بانکی
 $traceCode      = $_POST['transid']; // کد رهگیری برای تایید تراکنش
 $api            = new Aqayepardakht\PhpSdk\Api();
