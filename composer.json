@@ -1,0 +1,25 @@
+{
+    "name": "aqayepardakht/laravel-sdk",
+    "autoload": {
+        "psr-4": {
+            "Aqayepardakht\\LaravelSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AqayePardakht",
+            "email": "aqayepardakht@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aqayepardakht/php-sdk": "dev-main"
+    },
+    "extra": {
+		"laravel": {
+			"providers": [
+				"Aqayepardakht\\laravelSdk\\LaravelSdkServiceProvider"
+			]
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5d0c2ade4a8a2634a0725a8e884afd4c",
+    "packages": [
+        {
+            "name": "aqayepardakht/http",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aqayepardakht/Http.git",
+                "reference": "4459933701d3b3884240f295faf147004619a9c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aqayepardakht/Http/zipball/4459933701d3b3884240f295faf147004619a9c2",
+                "reference": "4459933701d3b3884240f295faf147004619a9c2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aqayepardakht\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "AqayePardakht",
+                    "email": "aqayepardakht@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/aqayepardakht/Http/issues",
+                "source": "https://github.com/aqayepardakht/Http/tree/2.0.2"
+            },
+            "time": "2022-05-08T18:31:59+00:00"
+        },
+        {
+            "name": "aqayepardakht/php-sdk",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aqayepardakht/phpSdk.git",
+                "reference": "c3c8110fd500770cf72ee552ed66fe28721b73ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aqayepardakht/phpSdk/zipball/c3c8110fd500770cf72ee552ed66fe28721b73ea",
+                "reference": "c3c8110fd500770cf72ee552ed66fe28721b73ea",
+                "shasum": ""
+            },
+            "require": {
+                "aqayepardakht/http": "^2.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aqayepardakht\\PhpSdk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/aqayepardakht/phpSdk/issues",
+                "source": "https://github.com/aqayepardakht/phpSdk/tree/1.0.0"
+            },
+            "time": "2022-07-06T08:19:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "aqayepardakht/php-sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
