@@ -13,6 +13,6 @@ class AqayepardakhtServiceProvider extends ServiceProvider {
         });
 
         $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-        $loader->alias('Aqayepardakht', "Aqayepardakht\\laravelSdk\\Facades\\ApiFacade");
+        $loader->alias('Aqayepardakht', "Aqayepardakht\\LaravelSdk\\Facades\\ApiFacade");
     }
 }
