@@ -1,6 +1,6 @@
 <?php
 
-namespace Aqayepardakht\laravelSdk\Facades;
+namespace Aqayepardakht\LaravelSdk\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

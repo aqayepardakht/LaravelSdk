@@ -14,5 +14,12 @@
     "minimum-stability": "dev",
     "require": {
         "aqayepardakht/php-sdk": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aqayepardakht\\LaravelSdk\\AqayepardakhtServiceProvider"
+            ]
+        }
     }
 }

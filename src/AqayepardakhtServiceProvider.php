@@ -1,6 +1,6 @@
 <?php
 
-namespace Aqayepardakht\laravelSdk;
+namespace Aqayepardakht\LaravelSdk;
 
 use Illuminate\Support\ServiceProvider;
 use Aqayepardakht\PhpSdk\Api;
